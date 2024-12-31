@@ -20,7 +20,6 @@ public class Field {
     @JsonIgnore
     private Form form;
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }

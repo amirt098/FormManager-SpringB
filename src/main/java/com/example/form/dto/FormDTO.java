@@ -21,8 +21,6 @@ public class FormDTO {
     private String submitEndpoint;
     @NotBlank(message = "Submit method is required")
     private String submitMethod;
-
-    // Getters and Setters
     public Long getId() {
         return id;
     }

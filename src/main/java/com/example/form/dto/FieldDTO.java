@@ -7,7 +7,6 @@ public class FieldDTO {
     private String type;
     private String defaultValue;
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }

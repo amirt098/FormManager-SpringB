@@ -21,11 +21,9 @@ public class Form {
     private String submitEndpoint;
     private String submitMethod;
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }
-
     public void setId(Long id) {
         this.id = id;
     }
@@ -41,7 +39,6 @@ public class Form {
     public boolean isPublished() {
         return published;
     }
-
     public void setPublished(boolean published) {
         this.published = published;
     }
